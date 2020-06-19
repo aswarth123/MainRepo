@@ -1,10 +1,10 @@
-example = (())
+example = set()
 example.add(42)
 example.add(42.54)
 example.add('Hi there')
 example.add(True)
 
-example2 = ()
+example2 = set()
 example2.add(43)
 example2.add(43.54)
 example2.add('Hello there')
