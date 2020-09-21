@@ -1,13 +1,15 @@
 def IsPrime(num):
-    """Returns if it is prime or not"""
+    """Checks if it is prime or not"""
     checker = None
-    if num > 1:
+    if num > 2:
         for i in range(2, num):
             if (num%i == 0):
                 checker = False
                 break                
             else:
-                checker = True                
+                checker = True
+    elif num==2:
+        checker = True
     else:
         checker = False
     return(checker)
